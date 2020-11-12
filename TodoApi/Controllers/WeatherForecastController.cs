@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+
+//A controller is an object which handles http requests and creates the HTTP response. This application has a single controller
 namespace TodoApi.Controllers
 {
     [ApiController]
