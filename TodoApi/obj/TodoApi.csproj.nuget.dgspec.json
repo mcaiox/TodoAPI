@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chin\\OneDrive\\Extra Studies-Coding\\ToDo WebAPI with ASP.NET Core\\TodoApi\\TodoApi.csproj": {}
+    "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chin\\OneDrive\\Extra Studies-Coding\\ToDo WebAPI with ASP.NET Core\\TodoApi\\TodoApi.csproj": {
+    "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chin\\OneDrive\\Extra Studies-Coding\\ToDo WebAPI with ASP.NET Core\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\chin\\OneDrive\\Extra Studies-Coding\\ToDo WebAPI with ASP.NET Core\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\chin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chin\\OneDrive\\Extra Studies-Coding\\ToDo WebAPI with ASP.NET Core\\TodoApi\\obj\\",
+        "projectPath": "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj",
+        "packagesPath": "/Users/chin/.nuget/packages/",
+        "outputPath": "/Users/chin/TodoAPI/TodoApi/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\chin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -39,15 +35,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -68,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
