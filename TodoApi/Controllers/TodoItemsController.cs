@@ -28,7 +28,7 @@ namespace TodoApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
-            return await _context.TodoItems.ToListAsync();
+            return await _context.TodoItems.ToListAsync(); //Await here means, it'll start the following command after everything is done before it.
         }
 
         // GET: api/TodoItems/5

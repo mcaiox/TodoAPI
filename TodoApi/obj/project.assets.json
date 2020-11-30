@@ -7264,24 +7264,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/chin/.nuget/packages/": {}
+    "C:\\Users\\Chin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\Chin\\Desktop\\TodoAPI\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "/Users/chin/TodoAPI/TodoApi/TodoApi.csproj",
-      "packagesPath": "/Users/chin/.nuget/packages/",
-      "outputPath": "/Users/chin/TodoAPI/TodoApi/obj/",
+      "projectPath": "C:\\Users\\Chin\\Desktop\\TodoAPI\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\Chin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chin\\Desktop\\TodoAPI\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chin/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Chin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7341,7 +7343,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
